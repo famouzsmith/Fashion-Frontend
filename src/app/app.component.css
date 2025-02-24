@@ -1,0 +1,56 @@
+.d-block {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+/* Fix dropdown visibility issue if any */
+.dropdown-item {
+  z-index: 1050;
+}
+
+.nav-link:hover {
+  color: chocolate;
+}
+
+.navbar {
+  font-family: "Poppins", "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+  border-bottom: 2px solid wheat;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 16px;
+  line-height: 0.3;
+  background: #fff;
+}
+
+.nav .bi {
+  margin-left: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+  display: inline-block;
+  line-height: 0.3;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .navbar-expand-lg.navbar-toggler {
+    display: block;
+  }
+  .navbar-expand-lg.navbar-toggler {
+    display: none;
+  }
+}
